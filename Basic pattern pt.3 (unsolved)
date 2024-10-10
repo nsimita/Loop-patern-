@@ -1,0 +1,29 @@
+_ _ _ _ 1
+_ _ _ 1 2
+_ _ 1 2 3
+_ 1 2 3 4
+1 2 3 4 5
+here numbers - 1,2,3,4,5 = i
+  space - 4,3,2,1,0 n-i
+
+  int main()
+{
+    int i, j,n;
+    scanf("%d",&n);
+   
+    for(i=1; i<=n; i++){
+      
+        for(j=1; j<=n-i;j++){
+           
+           printf(" ");
+        }
+        for(int k=1; k<=i;k++){
+            printf("%d",k);
+        }
+        printf("\n");
+        
+    }
+
+    return 0;
+}
+ 
